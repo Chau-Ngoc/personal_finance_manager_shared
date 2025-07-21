@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "personal_finance_manager_shared"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     {name = "Ngoc Chau", email = "playerzawesome@gmail.com"},
 ]

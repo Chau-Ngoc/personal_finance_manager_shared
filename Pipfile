@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 build = "*"
+personal-finance-manager-shared = {file = ".", editable = true}
 
 [dev-packages]
 

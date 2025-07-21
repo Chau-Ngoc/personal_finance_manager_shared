@@ -1,6 +1,6 @@
 import logging
 
-from shared.loggers.base_logger import BaseLogger
+from personal_finance_manager_shared.loggers.base_logger import BaseLogger
 
 
 class ConsoleLogger(BaseLogger):

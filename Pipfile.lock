@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "4ed0a7ae822fd7ffa528d8c4c50775249620f95474e11eaafc1799b93f66da39"
+      "sha256": "fed2c5f00bac625cab91797ea975bf0c4df7d606257a0c7d2ccfc97219e7e20f"
     },
     "pipfile-spec": 6,
     "requires": {
@@ -32,6 +32,10 @@
       ],
       "markers": "python_version >= '3.8'",
       "version": "==25.0"
+    },
+    "personal-finance-manager-shared": {
+      "editable": true,
+      "file": "."
     },
     "pyproject-hooks": {
       "hashes": [

@@ -11,7 +11,7 @@ class ConsoleLogger(BaseLogger):
         ch = logging.StreamHandler()
         ch.setLevel(level)
 
-        formatter = logging.Formatter("{asctime} {name} {levelname:8} {message}", style="{")
+        formatter = logging.Formatter("{asctime} {levelname} {name} {message}", style="{")
         ch.setFormatter(formatter)
 
         self.logger.addHandler(ch)

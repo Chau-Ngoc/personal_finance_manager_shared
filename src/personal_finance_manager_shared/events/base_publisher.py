@@ -10,7 +10,7 @@ class BasePublisher(ABC):
 
     @classmethod
     @abstractmethod
-    async def connect(cls, url: str, **kwargs):
+    async def connect(cls, channel_number: int | None = None, **kwargs):
         raise NotImplementedError
 
     @classmethod
@@ -19,7 +19,7 @@ class BasePublisher(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    async def publish(self, message: str):
+    async def publish(self, message: bytes):
         raise NotImplementedError
 
     @property
